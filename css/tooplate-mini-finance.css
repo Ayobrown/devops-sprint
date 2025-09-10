@@ -1145,5 +1145,42 @@ strong {
   .profile-rounded-icon {
     font-size: var(--h6-font-size);
   }
+  .notifications-icon-wrap {
+    width: 28px;
+    min-width: 28px;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 5px;
+}   
+  footer {
+  background-color: #f8f8f8; /* light gray background */
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+  footer p {
+  margin: 5px 0; /* spacing between lines */
+}
+/* Footer Styles */
+.site-footer {
+  background: var(--primary-color);   /* red background */
+  color: white;                       /* white text */
+  text-align: center;                 /* center the footer text */
+  padding: 15px 10px;                 /* spacing */
+  font-size: 14px;                    /* smaller text */
+  margin-top: 40px;                   /* space above footer */
+}
+
+.site-footer a {
+  color: var(--secondary-color);      /* green links */
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+     
 }
 
